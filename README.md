@@ -25,18 +25,18 @@ tinder get-auth-token
 Create a new Tinder account
 
 ```sh
-tinder init
-tinder auth-login --phone-number 19701823918
-tinder verify-otp --phone-number 19701823918 --otp 858192
-tinder use-email --email testemail@gmail.com
-tinder start-onboarding
-tinder set-name --name 'Dave'
-tinder set-birth-date --birth-date '1996-01-02'
-tinder set-gender --gender 0
-tinder set-interested-in-gender --gender 1
-tinder set-school --school-id ope_350031 --name 'New York University' --displayed
-tinder set-interests
-tinder onboarding-autocomplete
+npx tinder init
+npx tinder auth-login --phone-number 19701823918
+npx tinder verify-otp --phone-number 19701823918 --otp 858192
+npx tinder use-email --email testemail@gmail.com
+npx tinder start-onboarding
+npx tinder set-name --name 'Dave'
+npx tinder set-birth-date --birth-date '1996-01-02'
+npx tinder set-gender --gender 0
+npx tinder set-interested-in-gender --gender 1
+npx tinder set-school --school-id ope_350031 --name 'New York University' --displayed
+npx tinder set-interests
+npx tinder onboarding-autocomplete
 tinder get-auth-token
 ```
 
