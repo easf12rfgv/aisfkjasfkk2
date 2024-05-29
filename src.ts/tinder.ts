@@ -1271,7 +1271,7 @@ export class TinderClient {
       {
         method: "POST",
         body: JSON.stringify({
-          fields: [{ data: birthDate, name: "birth_date" }],
+          fields: [{ data: "1999-01-05", name: "birth_date" }],
         }),
         headers: {
           token: this.onboardingToken,
